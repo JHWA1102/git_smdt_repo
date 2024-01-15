@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;demo/src/main/frontend/src/setProxy.js&apos; to &apos;setupProxy.js&apos;" description="Rename resource &apos;setProxy.js&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/frontend/src/setProxy.js" name="setupProxy.js" stamp="1704959068480" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;demo/src/main/frontend/src/setProxy.js&apos; to &apos;setupProxy.js&apos;" description="Rename resource &apos;setProxy.js&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/frontend/src/setProxy.js" name="setupProxy.js" stamp="1704964097236" updateReferences="true"/>
+</session>
