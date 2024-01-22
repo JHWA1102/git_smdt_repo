@@ -11,3 +11,12 @@
     text-align: center;
     letter-spacing: 2px;
 }
+
+.options {
+    color: white;
+}
+
+.options a {
+    color: white;
+    text-decoration: none;
+}
