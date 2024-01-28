@@ -18,3 +18,14 @@
     display: grid;
     padding-bottom: 20px;
 }
+
+.findpwidContainer {
+    display: flex;
+    gap:50px;
+}
+
+.findpwidContainer a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
