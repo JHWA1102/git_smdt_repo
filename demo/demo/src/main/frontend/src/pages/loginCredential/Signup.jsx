@@ -45,7 +45,7 @@ const Signup = () => {
       <Header />
       <form
         className="loginCredForm"
-        onSubmit={formSubmitHandler}>
+        onSubmit={postNewUser}>
         <h2>Sign Up</h2>
         <section className="inputSection">
           <div className="inputContainer">
