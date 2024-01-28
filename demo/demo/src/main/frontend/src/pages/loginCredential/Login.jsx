@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import Header from '../../components/header/Header'
 import './loginCred.css'
 import Signup from './Signup'
@@ -27,7 +27,7 @@ const Login = () => {
         if (res.data.message != 'User does not exist') {
           if (res.data.message == pw) {
             loginHandler()
-            navigate('/')
+            // navigate('/')
             setError(res.data.message)
           } else {
             setError('Wrong Password!')
