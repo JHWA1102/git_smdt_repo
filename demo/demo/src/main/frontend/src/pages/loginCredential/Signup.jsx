@@ -11,7 +11,7 @@ const Signup = () => {
     password: ''
   })
 
-  const url = 'http://localhost:3500/users/signup'
+  const url = 'http://localhost:5173/users/signup'
   const navigate = useNavigate()
 
   async function postNewUser(e) {
@@ -22,7 +22,10 @@ const Signup = () => {
           email: value.email,
           username: value.username,
           password: value.password
-        })
+        }, {
+          withCredentials: true // 클라이언트와 서버가 통신할때 쿠키와 같은 인증 정보 값을 공유하겠다는 설정
+        }
+        )
         .then(res => {
           console.log(res.data)
           if (res.data == 'User registration successful') {
